@@ -1,0 +1,33 @@
+kobayashiakiko@kobayashiakikonoMacBook-Pro ~ % cd /Users/kobayashiakiko/Desktop/Github 
+kobayashiakiko@kobayashiakikonoMacBook-Pro Github % mkdir git_challenge
+kobayashiakiko@kobayashiakikonoMacBook-Pro Github % cd /Users/kobayashiakiko/Desktop/Github/git_challenge
+kobayashiakiko@kobayashiakikonoMacBook-Pro git_challenge % git init
+Initialized empty Git repository in /Users/kobayashiakiko/Desktop/Github/git_challenge/.git/
+kobayashiakiko@kobayashiakikonoMacBook-Pro git_challenge % git add hello_world.txt
+kobayashiakiko@kobayashiakikonoMacBook-Pro git_challenge % git commit -m "hello_world を追加"
+[main (root-commit) d22104d] hello_worldを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+kobayashiakiko@kobayashiakikonoMacBook-Pro git_challenge % git log
+commit d22104dc7895f47532327b70191b42c166c6fe3f (HEAD -> main)
+Author: akiko-Lanlin03 <akiko.k00753@gmail.com>
+Date:   Wed Oct 2 17:38:48 2024 +0900
+
+    hello_worldを追加
+kobayashiakiko@kobayashiakikonoMacBook-Pro git_challenge % git add hello_world.txt
+kobayashiakiko@kobayashiakikonoMacBook-Pro git_challenge % git commit -m "hello_world を追加"
+[main 53dd16f] hello_worldを追加
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+kobayashiakiko@kobayashiakikonoMacBook-Pro git_challenge % git log
+commit 53dd16f472623bd94935420291ed43c1457fe533 (HEAD -> main)
+Author: akiko-Lanlin03 <akiko.k00753@gmail.com>
+Date:   Wed Oct 2 17:39:38 2024 +0900
+
+    hello_worldを追加
+
+commit d22104dc7895f47532327b70191b42c166c6fe3f
+Author: akiko-Lanlin03 <akiko.k00753@gmail.com>
+Date:   Wed Oct 2 17:38:48 2024 +0900
+
+    hello_worldを追加
+kobayashiakiko@kobayashiakikonoMacBook-Pro git_challenge % 
